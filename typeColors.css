@@ -1,0 +1,377 @@
+#bugTypeButton label {
+    color: hsl(76deg, 61%, 46%);
+    border: 2px solid hsl(76deg, 61%, 46%);
+    transition: color 200ms, border 200ms, background-color 200ms;
+}
+
+#bugTypeButton input + label::before{
+    background-color: hsl(76deg, 61%, 46%);
+}
+
+#bugTypeButton label:hover {
+    background-color: hsla(76deg, 61%, 46%, 0.2);
+    transition: background-color 200ms;
+}
+
+#bugTypeButton input:checked + label {
+    color: #fff;
+    border: 2px solid #fff;
+    transition: color 200ms, border 200ms;
+}
+
+#darkTypeButton label {
+    color: hsl(221deg, 6%, 38%);
+    border: 2px solid hsl(221deg, 6%, 38%);
+    transition: color 200ms, border 200ms, background-color 200ms;
+}
+
+#darkTypeButton input + label::before{
+    background-color: hsl(221deg, 6%, 38%);
+}
+
+#darkTypeButton label:hover {
+    background-color: hsla(221deg, 6%, 38%, 0.2);
+    transition: background-color 200ms;
+}
+
+#darkTypeButton input:checked + label {
+    color: #fff;
+    border: 2px solid #fff;
+    transition: color 200ms, border 200ms;
+}
+
+#dragonTypeButton label {
+    color: hsl(205deg, 92%, 40%);
+    border: 2px solid hsl(205deg, 92%, 40%);
+    transition: color 200ms, border 200ms, background-color 200ms;
+}
+
+#dragonTypeButton input + label::before{
+    background-color: hsl(205deg, 92%, 40%);
+}
+
+#dragonTypeButton label:hover {
+    background-color: hsla(205deg, 92%, 40%, 0.2);
+    transition: background-color 200ms;
+}
+
+#dragonTypeButton input:checked + label {
+    color: #fff;
+    border: 2px solid #fff;
+    transition: color 200ms, border 200ms;
+}
+
+#electricTypeButton label {
+    color: hsl(51deg, 84%, 61%);
+    border: 2px solid hsl(51deg, 84%, 61%);
+    transition: color 200ms, border 200ms, background-color 200ms;
+}
+
+#electricTypeButton input + label::before{
+    background-color: hsl(51deg, 84%, 61%);
+}
+
+#electricTypeButton label:hover {
+    background-color: hsla(51deg, 84%, 61%, 0.2);
+    transition: background-color 200ms;
+}
+
+#electricTypeButton input:checked + label {
+    color: #fff;
+    border: 2px solid #fff;
+    transition: color 200ms, border 200ms;
+}
+
+#fairyTypeButton label {
+    color: hsl(305deg, 72%, 75%);
+    border: 2px solid hsl(305deg, 72%, 75%);
+    transition: color 200ms, border 200ms, background-color 200ms;
+}
+
+#fairyTypeButton input + label::before{
+    background-color: hsl(305deg, 72%, 75%);
+}
+
+#fairyTypeButton label:hover {
+    background-color: hsla(305deg, 72%, 75%, 0.2);
+    transition: background-color 200ms;
+}
+
+#fairyTypeButton input:checked + label {
+    color: #fff;
+    border: 2px solid #fff;
+    transition: color 200ms, border 200ms;
+}
+
+#fightingTypeButton label {
+    color: hsl(348deg, 64%, 55%);
+    border: 2px solid hsl(348deg, 64%, 55%);
+    transition: color 200ms, border 200ms, background-color 200ms;
+}
+
+#fightingTypeButton input + label::before{
+    background-color: hsl(348deg, 64%, 55%);
+}
+
+#fightingTypeButton label:hover {
+    background-color: hsla(348deg, 64%, 55%, 0.2);
+    transition: background-color 200ms;
+}
+
+#fightingTypeButton input:checked + label {
+    color: #fff;
+    border: 2px solid #fff;
+    transition: color 200ms, border 200ms;
+}
+
+#fireTypeButton label {
+    color: hsl(28deg, 95%, 64%);
+    border: 2px solid hsl(28deg, 95%, 64%);
+    transition: color 200ms, border 200ms, background-color 200ms;
+}
+
+#fireTypeButton input + label::before{
+    background-color: hsl(28deg, 95%, 64%);
+}
+
+#fireTypeButton label:hover {
+    background-color: hsla(28deg, 95%, 64%, 0.2);
+    transition: background-color 200ms;
+}
+
+#fireTypeButton input:checked + label {
+    color: #fff;
+    border: 2px solid #fff;
+    transition: color 200ms, border 200ms;
+}
+
+#flyingTypeButton label {
+    color: hsl(222deg, 52%, 73%);
+    border: 2px solid hsl(222deg, 52%, 73%);
+    transition: color 200ms, border 200ms, background-color 200ms;
+}
+
+#flyingTypeButton input + label::before{
+    background-color: hsl(222deg, 52%, 73%);
+}
+
+#flyingTypeButton label:hover {
+    background-color: hsla(222deg, 52%, 73%, 0.2);
+    transition: background-color 200ms;
+}
+
+#flyingTypeButton input:checked + label {
+    color: #fff;
+    border: 2px solid #fff;
+    transition: color 200ms, border 200ms;
+}
+
+#ghostTypeButton label {
+    color: hsl(228deg, 39%, 54%);
+    border: 2px solid hsl(228deg, 39%, 54%);
+    transition: color 200ms, border 200ms, background-color 200ms;
+}
+
+#ghostTypeButton input + label::before{
+    background-color: hsl(228deg, 39%, 54%);
+}
+
+#ghostTypeButton label:hover {
+    background-color: hsla(228deg, 39%, 54%, 0.2);
+    transition: background-color 200ms;
+}
+
+#ghostTypeButton input:checked + label {
+    color: #fff;
+    border: 2px solid #fff;
+    transition: color 200ms, border 200ms;
+}
+
+#grassTypeButton label {
+    color: hsl(118deg, 42%, 55%);
+    border: 2px solid hsl(118deg, 42%, 55%);
+    transition: color 200ms, border 200ms, background-color 200ms;
+}
+
+#grassTypeButton input + label::before{
+    background-color: hsl(118deg, 42%, 55%);
+}
+
+#grassTypeButton label:hover {
+    background-color: hsla(118deg, 42%, 55%, 0.2);
+    transition: background-color 200ms;
+}
+
+#grassTypeButton input:checked + label {
+    color: #fff;
+    border: 2px solid #fff;
+    transition: color 200ms, border 200ms;
+}
+
+#groundTypeButton label {
+    color: hsl(19deg, 66%, 57%);
+    border: 2px solid hsl(19deg, 66%, 57%);
+    transition: color 200ms, border 200ms, background-color 200ms;
+}
+
+#groundTypeButton input + label::before{
+    background-color: hsl(19deg, 66%, 57%);
+}
+
+#groundTypeButton label:hover {
+    background-color: hsla(19deg, 66%, 57%, 0.2);
+    transition: background-color 200ms;
+}
+
+#groundTypeButton input:checked + label {
+    color: #fff;
+    border: 2px solid #fff;
+    transition: color 200ms, border 200ms;
+}
+
+#iceTypeButton label {
+    color: hsl(170deg, 49%, 64%);
+    border: 2px solid hsl(170deg, 49%, 64%);
+    transition: color 200ms, border 200ms, background-color 200ms;
+}
+
+#iceTypeButton input + label::before{
+    background-color: hsl(170deg, 49%, 64%);
+}
+
+#iceTypeButton label:hover {
+    background-color: hsla(170deg, 49%, 64%, 0.2);
+    transition: background-color 200ms;
+}
+
+#iceTypeButton input:checked + label {
+    color: #fff;
+    border: 2px solid #fff;
+    transition: color 200ms, border 200ms;
+}
+
+#normalTypeButton label {
+    color: hsl(208deg, 8%, 60%);
+    border: 2px solid hsl(208deg, 8%, 60%);
+    transition: color 200ms, border 200ms, background-color 200ms;
+}
+
+#normalTypeButton input + label::before{
+    background-color: hsl(208deg, 8%, 60%);
+}
+
+#normalTypeButton label:hover {
+    background-color: hsla(208deg, 8%, 60%, 0.2);
+    transition: background-color 200ms;
+}
+
+#normalTypeButton input:checked + label {
+    color: #fff;
+    border: 2px solid #fff;
+    transition: color 200ms, border 200ms;
+}
+
+#poisonTypeButton label {
+    color: hsl(284deg, 49%, 59%);
+    border: 2px solid hsl(284deg, 49%, 59%);
+    transition: color 200ms, border 200ms, background-color 200ms;
+}
+
+#poisonTypeButton input + label::before{
+    background-color: hsl(284deg, 49%, 59%);
+}
+
+#poisonTypeButton label:hover {
+    background-color: hsla(284deg, 49%, 59%, 0.2);
+    transition: background-color 200ms;
+}
+
+#poisonTypeButton input:checked + label {
+    color: #fff;
+    border: 2px solid #fff;
+    transition: color 200ms, border 200ms;
+}
+
+#psychicTypeButton label {
+    color: hsl(0deg, 88%, 71%);
+    border: 2px solid hsl(0deg, 88%, 71%);
+    transition: color 200ms, border 200ms, background-color 200ms;
+}
+
+#psychicTypeButton input + label::before{
+    background-color: hsl(0deg, 88%, 71%);
+}
+
+#psychicTypeButton label:hover {
+    background-color: hsla(0deg, 88%, 71%, 0.2);
+    transition: background-color 200ms;
+}
+
+#psychicTypeButton input:checked + label {
+    color: #fff;
+    border: 2px solid #fff;
+    transition: color 200ms, border 200ms;
+}
+
+#rockTypeButton label {
+    color: hsl(44deg, 36%, 66%);
+    border: 2px solid hsl(44deg, 36%, 66%);
+    transition: color 200ms, border 200ms, background-color 200ms;
+}
+
+#rockTypeButton input + label::before{
+    background-color: hsl(44deg, 36%, 66%);
+}
+
+#rockTypeButton label:hover {
+    background-color: hsla(44deg, 36%, 66%, 0.2);
+    transition: background-color 200ms;
+}
+
+#rockTypeButton input:checked + label {
+    color: #fff;
+    border: 2px solid #fff;
+    transition: color 200ms, border 200ms;
+}
+
+#steelTypeButton label {
+    color: hsl(194deg, 31%, 47%);
+    border: 2px solid hsl(194deg, 31%, 47%);
+    transition: color 200ms, border 200ms, background-color 200ms;
+}
+
+#steelTypeButton input + label::before{
+    background-color: hsl(194deg, 31%, 47%);
+}
+
+#steelTypeButton label:hover {
+    background-color: hsla(194deg, 31%, 47%, 0.2);
+    transition: background-color 200ms;
+}
+
+#steelTypeButton input:checked + label {
+    color: #fff;
+    border: 2px solid #fff;
+    transition: color 200ms, border 200ms;
+}
+
+#waterTypeButton label {
+    color: hsl(209deg, 68%, 59%);
+    border: 2px solid hsl(209deg, 68%, 59%);
+    transition: color 200ms, border 200ms, background-color 200ms;
+}
+
+#waterTypeButton input + label::before{
+    background-color: hsl(209deg, 68%, 59%);
+}
+
+#waterTypeButton label:hover {
+    background-color: hsla(209deg, 68%, 59%, 0.2);
+    transition: background-color 200ms;
+}
+
+#waterTypeButton input:checked + label {
+    color: #fff;
+    border: 2px solid #fff;
+    transition: color 200ms, border 200ms;
+}

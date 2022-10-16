@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Spheyadex</title>
+
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet"> 
+
+		<style>
+		@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;900&display=swap');
+		</style> 
+
+		<script src="pokemonIds.js"></script>
+		<script src="evolutionLines.js"></script>
+		<script src="abilities.js"></script>
+		<script src="moves.js"></script>
+		<script src="autocomplete.js"></script>
+		<script src="spheyadex.js"></script>
+		
+
+		<link rel="icon" type="image/x-icon" href="favicon.ico">
+
+		<link rel="stylesheet" href="spheyadex.css">
+		<link rel="stylesheet" href="typeColors.css">
+	</head>
+
+	<body>
+		<div class="content">
+			<div class="container-group">
+				<div class="filter-container container">
+					<h3>Moves</h3>
+					<ul class="moves-list">
+						<li><input class="autocomplete" type="text" id="move1"></li>
+						<li><input class="autocomplete" type="text" id="move2"></li>
+						<li><input class="autocomplete" type="text" id="move3"></li>
+						<li><input class="autocomplete" type="text" id="move4"></li>
+					</ul>
+				</div>
+
+				<div class="filter-container container">
+					<label for="ability"><h3>Ability</h3></label>
+					<input class="autocomplete" type="text" id="ability">
+				</div>
+
+				<div class="filter-container container">
+					<h3>Type</h3>
+					<ul class = "typeButton-list">
+						<li class = "typeButton" id="bugTypeButton">
+							<input type="checkbox" id="bug" onChange="updateResults()">
+							<label for="bug">Bug</label>
+						</li>
+						<li class = "typeButton" id="darkTypeButton">
+							<input type="checkbox" id="dark" onChange="updateResults()">
+							<label for="dark">Dark</label>
+						</li>
+						<li class = "typeButton" id="dragonTypeButton">
+							<input type="checkbox" id="dragon" onChange="updateResults()">
+							<label for="dragon">Dragon</label>
+						</li>
+						<li class = "typeButton" id="electricTypeButton">
+							<input type="checkbox" id="electric" onChange="updateResults()">
+							<label for="electric">Electric</label>
+						</li>
+						<li class = "typeButton" id="fairyTypeButton">
+							<input type="checkbox" id="fairy" onChange="updateResults()">
+							<label for="fairy">Fairy</label>
+						</li>
+						<li class = "typeButton" id="fightingTypeButton">
+							<input type="checkbox" id="fighting" onChange="updateResults()">
+							<label for="fighting">Fighting</label>
+						</li>
+						<li class = "typeButton" id="fireTypeButton">
+							<input type="checkbox" id="fire" onChange="updateResults()">
+							<label for="fire">Fire</label>
+						</li>
+						<li class = "typeButton" id="flyingTypeButton">
+							<input type="checkbox" id="flying" onChange="updateResults()">
+							<label for="flying">Flying</label>
+						</li>
+						<li class = "typeButton" id="ghostTypeButton">
+							<input type="checkbox" id="ghost" onChange="updateResults()">
+							<label for="ghost">Ghost</label>
+						</li>
+						<li class = "typeButton" id="grassTypeButton">
+							<input type="checkbox" id="grass" onChange="updateResults()">
+							<label for="grass">Grass</label>
+						</li>
+						<li class = "typeButton" id="groundTypeButton">
+							<input type="checkbox" id="ground" onChange="updateResults()">
+							<label for="ground">Ground</label>
+						</li>
+						<li class = "typeButton" id="iceTypeButton">
+							<input type="checkbox" id="ice" onChange="updateResults()">
+							<label for="ice">Ice</label>
+						</li>
+						<li class = "typeButton" id="normalTypeButton">
+							<input type="checkbox" id="normal" onChange="updateResults()">
+							<label for="normal">Normal</label>
+						</li>
+						<li class = "typeButton" id="poisonTypeButton">
+							<input type="checkbox" id="poison" onChange="updateResults()">
+							<label for="poison">Poison</label>
+						</li>
+						<li class = "typeButton" id="psychicTypeButton">
+							<input type="checkbox" id="psychic" onChange="updateResults()">
+							<label for="psychic">Psychic</label>
+						</li>
+						<li class = "typeButton" id="rockTypeButton">
+							<input type="checkbox" id="rock" onChange="updateResults()">
+							<label for="rock">Rock</label>
+						</li>
+						<li class = "typeButton" id="steelTypeButton">
+							<input type="checkbox" id="steel" onChange="updateResults()">
+							<label for="steel">Steel</label>
+						</li>
+						<li class = "typeButton" id="waterTypeButton">
+							<input type="checkbox" id="water" onChange="updateResults()">
+							<label for="water">Water</label>
+						</li>
+					</ul>
+				</div>
+			</div>
+		
+			
+			<div class = "container-group">
+				<div class = "results-container container">
+					<h3>Results</h3>
+					<ul id="pokemonResults">
+					</ul>
+				</div>
+			</div>
+		</div>
+		
+		<footer>
+			<p>This website makes use of <a href="https://pokeapi.co/" target="_blank">PokeAPI</a><br>
+			Pokémon and all respective names are trademarks of Nintendo</p>
+		</footer>
+	</body>
+</html>
