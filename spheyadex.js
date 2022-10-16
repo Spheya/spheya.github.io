@@ -124,6 +124,10 @@ async function getPokemonByMove(movename) {
         }
     }
 
+    if(data.learned_by_pokemon.length > 0) {
+        data.learned_by_pokemon.push({name: "smeargle", url: ""});
+    }
+
     return data.learned_by_pokemon;
 }
 
@@ -198,10 +202,12 @@ async function showResults(pokemonListPromises) {
         txt.appendChild(document.createTextNode(pokemon));
         textArea.appendChild(txt);
 
-        let subTxt = document.createElement("p");
-        subTxt.setAttribute("class", "pokemon-subtext");
-        subTxt.appendChild(document.createTextNode(subText));
-        textArea.appendChild(subTxt);
+        if(subText != "") {
+            let subTxt = document.createElement("p");
+            subTxt.setAttribute("class", "pokemon-subtext");
+            subTxt.appendChild(document.createTextNode(subText));
+            textArea.appendChild(subTxt);
+        }
 
         item.appendChild(textArea);
 
