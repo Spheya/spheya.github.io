@@ -5,6 +5,15 @@
     font-weight: 400;
 }
 
+@viewport {
+    width: device-width ;
+    zoom: 1.0 ;
+}
+
+@-ms-viewport {
+    width: device-width ;
+} 
+
 h3 {
     position: relative;
     color: #3a3a3a;
