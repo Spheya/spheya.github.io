@@ -245,6 +245,10 @@ let evolutionLines = [
     "slaking"
   ],
   [
+	"shroomish",
+	"breloom"
+  ]
+  [
     "whismur",
     "loudred",
     "exploud"
