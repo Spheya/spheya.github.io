@@ -247,7 +247,7 @@ let evolutionLines = [
   [
 	"shroomish",
 	"breloom"
-  ]
+  ],
   [
     "whismur",
     "loudred",
